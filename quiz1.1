@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 1.1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .quiz-container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .options input {
+            margin-right: 10px;
+        }
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 16px;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .answer {
+            color: red;
+            margin-top: 5px;
+        }
+        .correct {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+<div class="quiz-container">
+    <h1>Quiz 1.1</h1>
+    <form id="quiz-form">
+        <!-- Question 1 -->
+        <div class="question">
+            <p>1. Ano ang ibig sabihin ng "ugad" sa Filipino?</p>
+            <div class="options">
+                <label>
+                    <input type="radio" name="question1" value="A"> A. Pangalan ng isang hayop
+                </label><br>
+                <label>
+                    <input type="radio" name="question1" value="B"> B. Bahagi ng halaman na sumisipsip ng tubig
+                </label><br>
+                <label>
+                    <input type="radio" name="question1" value="C"> C. Uri ng pagkain
+                </label><br>
+                <label>
+                    <input type="radio" name="question1" value="D"> D. Pook na tinitirhan
+                </label>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question">
+            <p>2. Ano ang tawag sa pinakamataas na bahagi ng isang puno?</p>
+            <div class="options">
+                <label>
+                    <input type="radio" name="question2" value="A"> A. Ugat
+                </label><br>
+                <label>
+                    <input type="radio" name="question2" value="B"> B. Dahon
+                </label><br>
+                <label>
+                    <input type="radio" name="question2" value="C"> C. Sanga
+                </label><br>
+                <label>
+                    <input type="radio" name="question2" value="D"> D. Bulaklak
+                </label>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question">
+            <p>3. Ano ang tawag sa proseso kung saan ang halaman ay kumukuha ng enerhiya mula sa araw?</p>
+            <div class="options">
+                <label>
+                    <input type="radio" name="question3" value="A"> A. Paghinga
+                </label><br>
+                <label>
+                    <input type="radio" name="question3" value="B"> B. Fotosintesis
+                </label><br>
+                <label>
+                    <input type="radio" name="question3" value="C"> C. Pagtubo
+                </label><br>
+                <label>
+                    <input type="radio" name="question3" value="D"> D. Pag-aanod
+                </label>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question">
+            <p>4. Anong bahagi ng halaman ang ginagamit ng hayop na pagkain?</p>
+            <div class="options">
+                <label>
+                    <input type="radio" name="question4" value="A"> A. Ugat
+                </label><br>
+                <label>
+                    <input type="radio" name="question4" value="B"> B. Dahon
+                </label><br>
+                <label>
+                    <input type="radio" name="question4" value="C"> C. Bulaklak
+                </label><br>
+                <label>
+                    <input type="radio" name="question4" value="D"> D. Bunga
+                </label>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question">
+            <p>5. Ano ang tawag sa mga hayop na kumakain ng halaman?</p>
+            <div class="options">
+                <label>
+                    <input type="radio" name="question5" value="A"> A. Carnivore
+                </label><br>
+                <label>
+                    <input type="radio" name="question5" value="B"> B. Omnivore
+                </label><br>
+                <label>
+                    <input type="radio" name="question5" value="C"> C. Herbivore
+                </label><br>
+                <label>
+                    <input type="radio" name="question5" value="D"> D. Insectivore
+                </label>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question">
+            <p>6. Ano ang ibig sabihin ng "photosynthesis"?</p>
+            <div class="options">
+                <label>
+                    <input type="radio" name="question6" value="A"> A. Pagbuo ng mga organiko mula sa karbon
+                </label><br>
+                <label>
+                    <input type="radio" name="question6" value="B"> B. Pagkuha ng enerhiya mula sa araw
+                </label><br>
+                <label>
+                    <input type="radio" name="question6" value="C"> C. Pagtutulungan ng mga organismo
+                </label><br>
+                <label>
+                    <input type="radio" name="question6" value="D"> D. Pagiging carnivore ng halaman
+                </label>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question">
+            <p>7. Ano ang tawag sa pinakamaliit na yunit ng buhay?</p>
+            <div class="options">
+                <label>
+                    <input type="radio" name="question7" value="A"> A. Molekula
+                </label><br>
+                <label>
+                    <input type="radio" name="question7" value="B"> B. Cell
+                </label><br>
+                <label>
+                    <input type="radio" name="question7" value="C"> C. Organismo
+                </label><br>
+                <label>
+                    <input type="radio" name="question7" value="D"> D. Atom
+                </label>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question">
+            <p>8. Ano ang tawag sa uri ng halaman na hindi namumulaklak?</p>
+            <div class="options">
+                <label>
+                    <input type="radio" name="question8" value="A"> A. Fern
+                </label><br>
+                <label>
+                    <input type="radio" name="question8" value="B"> B. Moss
+                </label><br>
+                <label>
+                    <input type="radio" name="question8" value="C"> C. Puno
+                </label><br>
+                <label>
+                    <input type="radio" name="question8" value="D"> D. Dahon
+                </label>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question">
+            <p>9. Ano ang tawag sa mga hayop na kumakain ng ibang hayop?</p>
+            <div class="options">
+                <label>
+                    <input type="radio" name="question9" value="A"> A. Herbivore
+                </label><br>
+                <label>
+                    <input type="radio" name="question9" value="B"> B. Omnivore
+                </label><br>
+                <label>
+                    <input type="radio" name="question9" value="C"> C. Carnivore
+                </label><br>
+                <label>
+                    <input type="radio" name="question9" value="D"> D. Insectivore
+                </label>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question">
+            <p>10. Ano ang tawag sa proseso kung saan ang mga hayop ay nakakuha ng oxygen?</p>
+            <div class="options">
+                <label>
+                    <input type="radio" name="question10" value="A"> A. Respiration
+                </label><br>
+                <label>
+                    <input type="radio" name="question10" value="B"> B. Photosynthesis
+                </label><br>
+                <label>
+                    <input type="radio" name="question10" value="C"> C. Fermentation
+                </label><br>
+                <label>
+                    <input type="radio" name="question10" value="D"> D. Digestion
+                </label>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="button" class="submit-btn" onclick="checkAnswers()">Submit</button>
+    </form>
+
+    <div id="result" class="result"></div>
+</div>
+
+<script>
+    function checkAnswers() {
+        const answers = {
+            question1: 'D',
+            question2: 'C',
+            question3: 'B',
+            question4: 'B',
+            question5: 'C',
+            question6: 'B',
+            question7: 'B',
+            question8: 'A',
+            question9: 'C',
+            question10: 'A'
+        };
+
+        let score = 0;
+        let resultHTML = '<h2>Your Score:</h2><ul>';
+
+        for (let i = 1; i <= 10; i++) {
+            const userAnswer = document.querySelector(`input[name="question${i}"]:checked`);
+            const correctAnswer = answers[`question${i}`];
+
+            if (userAnswer) {
+                const isCorrect = userAnswer.value === correctAnswer;
+                resultHTML += `<li>Question ${i}: 
+                    ${isCorrect ? '<span class="correct">Correct</span>' : `<span class="answer">Incorrect (Your Answer: ${userAnswer.value})</span>`}
+                </li>`;
+                if (isCorrect) score++;
+            } else {
+                resultHTML += `<li>Question ${i}: <span class="answer">No answer</span></li>`;
+            }
+        }
+
+        resultHTML += `</ul><h3>Total Score: ${score}/10</h3>`;
+        document.getElementById("result").innerHTML = resultHTML;
+    }
+</script>
+
+</body>
+</html>
